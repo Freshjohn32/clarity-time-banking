@@ -4,6 +4,18 @@ authors = []
 description = ""
 telemetry = false
 requirements = []
+[contracts.community-governance]
+path = "contracts/community-governance.clar"
+depends_on = []
+
+[contracts.dispute-resolution]
+path = "contracts/dispute-resolution.clar"
+depends_on = []
+
+[contracts.service-verification]
+path = "contracts/service-verification.clar"
+depends_on = []
+
 [contracts.time-exchange]
 path = "contracts/time-exchange.clar"
 depends_on = []
